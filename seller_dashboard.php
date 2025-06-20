@@ -81,6 +81,11 @@ $seller = $result->fetch_assoc();
             <a href="add_product.php" class="btn btn-custom">➕ Add New Product</a>
             <a href="manage_products.php" class="btn btn-outline-dark">🛒 Manage Products</a>
             <a href="edit_seller_profile.php" class="btn btn-outline-secondary">⚙️ Edit Profile</a>
+            <a href="seller_orders.php" class="btn btn-outline-info">📬 View Orders</a>
+            <a href="assign_courier_to_product.php" class="btn btn-outline-primary">🚚 Assign Courier to Product</a>
+            <a href="logout.php" class="btn btn btn-outline-dark"> Logout </a>
+
+
         </div>
     </div>
 </div>

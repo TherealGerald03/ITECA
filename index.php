@@ -103,6 +103,13 @@
     background-color: #ea580c;
     box-shadow: 0 0 12px 2px rgba(249, 115, 22, 0.7);
 }
+.product-card img {
+    height: 150px; /* You can tweak this */
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
 
 
     </style>
@@ -122,9 +129,11 @@
 
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              
+                <li class="nav-item"><a class="nav-link" href="thanks.html">Appreciations</a></li> 
+                <li class="nav-item"><a class="nav-link" href="documentation.php">Documentation</a></li> 
                 <li class="nav-item"><a class="nav-link" href="sales.php">Browse Listings</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Sell</a></li>
+               <!-- <li class="nav-item"><a class="nav-link" href="#">Sell</a></li> -->
                 <li class="nav-item"><a class="nav-link" href="login_demo.php">Login</a></li>
                 
 
@@ -149,42 +158,34 @@
     <div class="hero">
         <h1>Buy & Sell with Confidence</h1>
         <p>Connect with trusted sellers & buyers in South Africa</p>
-        <a href="#" class="mybutton">Start Selling</a>
+        <a href="login_demo.php" class="mybutton">Get Started</a>
     </div>
 
     <!-- Featured Listings Section -->
     <div class="container my-5">
-        <h2 class="text-center mb-4">Featured Products</h2>
-        <div class="scroll-container">
-            <!-- Scroll Left Button -->
-            <button class="scroll-btn" onclick="scrollLeft()">&#9664;</button>
-            <div class="featured-products" id="scrollable">
-                <!-- Product Cards -->
-                <div class="card">
-                    <img src="product1.jpg" class="card-img-top" alt="Product 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Product 1</h5>
-                        <p class="card-text">R50</p>
-                        <a href="#" class="mybutton">View</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="product2.jpg" class="card-img-top" alt="Product 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Product 2</h5>
-                        <p class="card-text">R30</p>
-                        <a href="#" class="mybutton">View</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="product3.jpg" class="card-img-top" alt="Product 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Product 3</h5>
-                        <p class="card-text">R70</p>
-                        <a href="#" class="mybutton">View</a>
-                    </div>
-                </div>
-            </div>
+    <h2 class="text-center mb-4"> What our Buyers Are Saying!</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <blockquote class="blockquote p-3 bg-light rounded shadow-sm">
+                “Love the kicks I bought from Afrimart. Quick delivery and great service!”
+                <footer class="blockquote-footer mt-2">— Pual Sax.</footer>
+            </blockquote>
+        </div>
+        <div class="col-md-4">
+            <blockquote class="blockquote p-3 bg-light rounded shadow-sm">
+                “I found local African art I’d never see in malls. Highly recommended.”
+                <footer class="blockquote-footer mt-2">— Dan Druff.</footer>
+            </blockquote>
+        </div>
+        <div class="col-md-4">
+            <blockquote class="blockquote p-3 bg-light rounded shadow-sm">
+                “Super easy to sell on this site — made my first sale in 2 days!”
+                <footer class="blockquote-footer mt-2">— AL Koholic.</footer>
+            </blockquote>
+        </div>
+    </div>
+</div>
+
                                                        <!-- Scroll Right Button -->
             <button class="scroll-btn" onclick="scrollRight()">&#9654;</button>
         </div>

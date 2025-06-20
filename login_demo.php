@@ -54,11 +54,11 @@ function isActiveForm($formName, $activeForm) {
                 <select name="role" required> 
                     <option value="">--Select Role--</option>   
                     <option value="user">User</option>
-                    <option value="admin">Admin</option>
+                  <!--  <option value="admin">Admin</option> -->
                     <option value="courier">Courier</option>
                     <option value="seller">Seller</option>
                 </select>
-                <button type="submit" name="register" >Register</button>
+                <button type="submit" color="#f97316" name="register" >Register</button>
                 <p> Already have an account ?<a onclick="showForm('login-form')"> Login</a> </p><!--Js called-->
 
             </form>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Appreciations</title>
+  
+  <!-- AOS Animation Library CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+
+    .appreciations {
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    .appreciations h2 {
+      font-size: 2.5rem;
+      margin-bottom: 2.5rem;
+      color: #333;
+    }
+
+    .companies-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .company-card {
+      background: white;
+      padding: 2rem;
+      border-radius: 16px;
+      width: 300px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .company-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .company-card img {
+      height: 60px;
+      margin-bottom: 1rem;
+      object-fit: contain;
+    }
+
+    .company-card h3 {
+      margin: 0.5rem 0;
+      font-size: 1.4rem;
+      color: #222;
+    }
+
+    .company-card p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .company-card a {
+      display: inline-block;
+      margin-top: 1rem;
+      color: #007BFF;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .companies-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    .btn-home {
+        background-color: #1d4ed8;
+        color: white;
+        font-weight: 500;
+        padding: 10px 25px;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+    .btn-home:hover {
+        background-color: #2563eb;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="appreciations" id="appreciations">
+    <h2>With Special Thanks To!</h2>
+    <div class="companies-container">
+      
+      <div class="company-card" data-aos="fade-up">
+        <img src="https://evolutionanywhere.com/wp-content/uploads/2023/06/Evolution-Anywhere-Small.png" alt="EvolutionAnywhere Logo">
+        <h3>EvolutionAnywhere</h3>
+        <p>Provided the server infrastructure for this project.</p>
+        <a href="https://evolutionanywhere.com" target="_blank">Visit Site</a>
+      </div>
+
+      <div class="company-card" data-aos="fade-up" data-aos-delay="100">
+        <img src="https://virtuocloud.co.za/wp-content/uploads/2025/04/VirtuoCloud_Vertical_Logo_400x110.png" alt="VirtuoCloud Logo">
+        <h3>VirtuoCloud</h3>
+        <p>Provided the domain and managed hosting services.</p>
+        <a href="https://virtuocloud.co.za" target="_blank">Visit Site</a>
+      </div>
+     <p>A heartfelt thank you to the directors — not only powering this platform, but also for the invaluable knowledge, guidance, and support throughout my academic journey.</p>
+    <div class="text-center mt-4">
+    <a href="index.php" class="btn-home">
+         Home
+    </a>
+</div>
+
+    </div>
+  </section>
+
+  <!-- AOS Library JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
+
+</body>
+</html>

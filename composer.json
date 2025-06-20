@@ -1,0 +1,15 @@
+{
+    "name": "afrivendor/afrimart",
+    "description": "Afrimart is a lightweight PHP e-commerce platform for buyers, sellers, couriers, and admins.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TherealGerald03",
+            "email": "ross.fitzgerald03@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

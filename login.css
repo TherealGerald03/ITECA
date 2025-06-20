@@ -52,7 +52,7 @@ input, select{
 button { 
     width: 100%;
     padding: 12px;
-    background: #7494ec;
+    background: #f97316;
     border-radius: 6px;
     border: none;
     cursor: pointer;
@@ -65,7 +65,7 @@ button {
 }
 
 button:hover{
-    background: #6684d3;
+    background: #f97316;
 }
 
 p{
@@ -100,7 +100,7 @@ h1 {
 }
 
 span {
-    color: blue;  /* colors need to be changed  */
+    color: #f97316;  /* colors need to be changed  */
 }
 
 .box{
